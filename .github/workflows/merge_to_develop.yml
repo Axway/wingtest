@@ -20,6 +20,6 @@ jobs:
         stable_branch: 'master'
         development_branch: 'develop2'
         allow_ff: true
-        ff_only: true
+        ff_only: false
       env:
         GITHUB_TOKEN: ${{ secrets.DOCSBUILDER_TOKEN }}
